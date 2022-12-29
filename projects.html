@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>RJulicher Projects</title>
+<link rel="stylesheet" href="project_styles.css">
+</head>
+
+<body>
+	<div id="nav">
+		<img src="faceicon.png" id="homeButton"> </img>
+		<h2>ABOUT ME</h2>
+		<h2>RESUME</h2>
+		<h2>PROJECTS</h2>
+		<h2>ART</h2>
+		<h2>LINKEDIN</h2>
+		<h2>CONTACT</h2>
+	</div>
+		
+	<div id="header">
+		<h1>SOME RECENT PROJECTS...</h1>
+	</div>
+	
+	<div id="content">
+	
+		<div class="project">
+			<h3>Generic Project Name</h3>
+		
+			<div class="slideshow-container">
+				<!-- Full-width images with number and caption text -->
+				<div class="mySlides fade">
+					<div class="numbertext">1 / 3</div>
+					<img class="pImage" src="pImage1.jpg">
+					<div class="text">Caption Text</div>
+				</div>
+
+				<div class="mySlides fade">
+					<div class="numbertext">2 / 3</div>
+					<img class="pImage" src="facelogo.png">
+					<div class="text">Caption Two</div>
+				</div>
+
+				<div class="mySlides fade">
+					<div class="numbertext">3 / 3</div>
+					<img class="pImage" src="selfPicture.png">
+					<div class="text">Caption Three</div>
+				</div>
+
+				<!-- Next and previous buttons -->
+				<a class="prev" onclick="plusSlides(0, -1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(0, 1)">&#10095;</a>
+			</div>
+			<br>
+
+			<!-- The dots/circles, passing the number of the container and the slide number -->
+			<div style="text-align:center">
+				<span class="dot" onclick="currentSlide(0, 1)"></span>
+				<span class="dot" onclick="currentSlide(0, 2)"></span>
+				<span class="dot" onclick="currentSlide(0, 3)"></span>
+			</div>
+			
+			
+			<div class="pContent">
+				<p> 
+					MCXX-II, forthcoming. <br> 
+					Recorded by Underscribe Shipal <br> <br>
+					Thus did the Shadow of Earth slay the Titan Vanguard Zavala. <br> 
+					<span id="dotdotdot0">...</span><span class="moreContent" id="more0">
+					<br>
+					As recorded by the enshrined Scribe Shagac, the Vanguard of Earth 
+					requested mercy, and their request was denied. Thus the Titan 
+					Zavala was permitted a final day to consider his perfidy before his death. <br> <br>
+					So the Titan Zavala went to the Human known as Suraya Hawthorne 
+					and said, "Suraya Hawthorne, will you play a game of checkers with me?" <br> <br>
+					Suraya Hawthorne agreed, and so the two played twenty-seven games of 
+					checkers, and listened to the music of bagpipes and synthesizers, 
+					and dined upon Earth delicacies such as nuggets of chicken and the 
+					beer of roots. <br> <br>
+					"Titan Zavala," said Suraya Hawthorne as Earth's sun rose upon their 
+					latitude, "There will never again be a checkersmaster of your like." <br> <br>
+					"No, Suraya," said Titan Zavala. "You must become a greater checkersmaster 
+					than even me, if you are to lead the resistance." <br> <br>
+					Thus the Titan Vanguard did not meet his final death alone. And Suraya 
+					Hawthorne was slain at a later date. <br> <br>
+					^ Note to Underscribe Shipal: Very good. This is entirely credible.
+					</span>
+				</p>
+				<button onclick="toggleRead(0)" class="button" id="btn0">Read more</button>
+			</div>
+		</div>
+	</div>
+	
+	<script src="projectScript.js"></script>
+</body>
+</html>
