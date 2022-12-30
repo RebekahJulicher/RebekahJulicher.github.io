@@ -2,6 +2,10 @@ body {
 	background-color: #0c091c;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 #banner {
 	border-radius: 10px;
 	background-color: #1b1b1b;

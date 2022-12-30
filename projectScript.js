@@ -14,8 +14,9 @@ function toggleRead(x) {
 	}
 }
 
-let slideIndex = [1];
+let slideIndex = [1, 1];
 showSlides(0, slideIndex);
+showSlides(1, slideIndex);
 
 // Next/previous controls
 function plusSlides(x, n) {
@@ -29,9 +30,9 @@ function currentSlide(x, n) {
 
 function showSlides(x, n) {
 	let i;
-	let slides = document.getElementsByClassName("mySlides fade");
+	let slides = document.getElementsByClassName("mySlides fade " + x);
 	//console.log(slides[2].style.display);
-	let dots = document.getElementsByClassName("dot");
+	let dots = document.getElementsByClassName("dot " + x);
 	
 	if (n > slides.length) {slideIndex[x] = 1}
 	if (n < 1) {slideIndex[x] = slides.length}

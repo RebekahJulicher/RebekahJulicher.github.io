@@ -8,7 +8,7 @@
 <body>
 	<div id="nav">
 		<a href="index.html"><img src="faceicon.png" id="homeButton"></img></a>
-		<h2>ABOUT ME</h2>
+		<a href="index.html#aboutcontainer"><h2>ABOUT ME</h2></a>
 		<h2>RESUME</h2>
 		<a href="https://www.instagram.com/_marayla_/?hl=en" target="_blank"><h2>ART</h2></a>
 		<a href="https://www.linkedin.com/in/rebekah-julicher-209057163/" target="_blank"><h2>LINKEDIN</h2></a>
@@ -22,26 +22,44 @@
 	<div id="content">
 	
 		<div class="project">
-			<h3>Generic Project Name</h3>
+			<h3>Ultrasonic Octopus</h3>
 		
 			<div class="slideshow-container">
 				<!-- Full-width images with number and caption text -->
-				<div class="mySlides fade">
-					<div class="numbertext">1 / 3</div>
-					<img class="pImage" src="pImage1.jpg">
-					<div class="text">Caption Text</div>
+				<div class="mySlides fade 0">
+					<div class="numbertext">1 / 6</div>
+					<img class="pImage" src="projectPics/UltrasonicOctopus.jpg">
+					<div class="text">End Product</div>
 				</div>
 
-				<div class="mySlides fade">
-					<div class="numbertext">2 / 3</div>
-					<img class="pImage" src="facelogo.png">
-					<div class="text">Caption Two</div>
+				<div class="mySlides fade 0">
+					<div class="numbertext">2 / 6</div>
+					<img class="pImage" src="projectPics/UO2.jpg">
+					<div class="text">Initial sketch</div>
 				</div>
 
-				<div class="mySlides fade">
-					<div class="numbertext">3 / 3</div>
-					<img class="pImage" src="selfPicture.png">
-					<div class="text">Caption Three</div>
+				<div class="mySlides fade 0">
+					<div class="numbertext">3 / 6</div>
+					<img class="pImage" src="projectPics/UO3.jpg">
+					<div class="text">Sensor holder sketch</div>
+				</div>
+
+				<div class="mySlides fade 0">
+					<div class="numbertext">4 / 6</div>
+					<img class="pImage" src="projectPics/UO4.jpg">
+					<div class="text">Wiring layout diagram</div>
+				</div>
+
+				<div class="mySlides fade 0">
+					<div class="numbertext">5 / 6</div>
+					<img class="pImage" src="projectPics/UO5.jpg">
+					<div class="text">Initial face build</div>
+				</div>
+
+				<div class="mySlides fade 0">
+					<div class="numbertext">6 / 6</div>
+					<img class="pImage" src="projectPics/UO6.jpg">
+					<div class="text">Final result with lights</div>
 				</div>
 
 				<!-- Next and previous buttons -->
@@ -52,40 +70,140 @@
 
 			<!-- The dots/circles, passing the number of the container and the slide number -->
 			<div style="text-align:center">
-				<span class="dot" onclick="currentSlide(0, 1)"></span>
-				<span class="dot" onclick="currentSlide(0, 2)"></span>
-				<span class="dot" onclick="currentSlide(0, 3)"></span>
+				<span class="dot 0" onclick="currentSlide(0, 1)"></span>
+				<span class="dot 0" onclick="currentSlide(0, 2)"></span>
+				<span class="dot 0" onclick="currentSlide(0, 3)"></span>
+				<span class="dot 0" onclick="currentSlide(0, 4)"></span>
+				<span class="dot 0" onclick="currentSlide(0, 5)"></span>
+				<span class="dot 0" onclick="currentSlide(0, 6)"></span>
 			</div>
-			
 			
 			<div class="pContent">
 				<p> 
-					MCXX-II, forthcoming. <br> 
-					Recorded by Underscribe Shipal <br> <br>
-					Thus did the Shadow of Earth slay the Titan Vanguard Zavala. <br> 
+					November 2021 <br> 
+					Created an octopus-design ultrasonic sweeping sensor with accompanying output application.<br> <br>
+					The Task: Create an ultrasonic sensor device which adhered to the following requirements: <br>
 					<span id="dotdotdot0">...</span><span class="moreContent" id="more0">
 					<br>
-					As recorded by the enshrined Scribe Shagac, the Vanguard of Earth 
-					requested mercy, and their request was denied. Thus the Titan 
-					Zavala was permitted a final day to consider his perfidy before his death. <br> <br>
-					So the Titan Zavala went to the Human known as Suraya Hawthorne 
-					and said, "Suraya Hawthorne, will you play a game of checkers with me?" <br> <br>
-					Suraya Hawthorne agreed, and so the two played twenty-seven games of 
-					checkers, and listened to the music of bagpipes and synthesizers, 
-					and dined upon Earth delicacies such as nuggets of chicken and the 
-					beer of roots. <br> <br>
-					"Titan Zavala," said Suraya Hawthorne as Earth's sun rose upon their 
-					latitude, "There will never again be a checkersmaster of your like." <br> <br>
-					"No, Suraya," said Titan Zavala. "You must become a greater checkersmaster 
-					than even me, if you are to lead the resistance." <br> <br>
-					Thus the Titan Vanguard did not meet his final death alone. And Suraya 
-					Hawthorne was slain at a later date. <br> <br>
-					^ Note to Underscribe Shipal: Very good. This is entirely credible.
+					Requirements for the design: <br>
+					• Uses an L-bracket for mounting the ultrasonic sensor<br>
+					• Ultrasonic sensor is mounted in a way to allow sweeping motion back and forth. <br>
+					• Functionality includes scanning distance to surrounding objects at intervals. <br>
+					• Functionality includes graphically outputting distance to surrounding objects in "radar-like" format using Processing. <br>
+					• Some level of "wow factor" included for maximum grade. <br> <br>
+					The professor did not specify visual requirements, so I made it into a light-up octopus with eyebrows.
+					I not only included all required functionality, but also added mounted servos to the eyebrows. When the
+					sensor scans a distance to an object of over 10 feet, the eyebrows tilt down (as it is "concentrating" to
+					see the object. When it scans a distance to an object of under 10 feet, the eyebrows tilt back up (as it 
+					can see the object clearly). <br> <br>
+					Professor feedback: “...probably the most impressively completed A[ssignment]2 in the history of ISTA 303.”
 					</span>
 				</p>
 				<button onclick="toggleRead(0)" class="button" id="btn0">Read more</button>
 			</div>
 		</div>
+	
+		<div class="project">
+			<h3>AWS IoT EduKit - Smart Thermostat Art</h3>
+		
+			<div class="slideshow-container">
+				<!-- Full-width images with number and caption text -->
+				<div class="mySlides fade 1">
+					<div class="numbertext">1 / 8</div>
+					<img class="pImage" src="projectPics/SmartThermostatCircuitCellar.jpg">
+					<div class="text">End Product - Image Credit: Circuit Cellar</div>
+				</div>
+
+				<div class="mySlides fade 1">
+					<div class="numbertext">2 / 8</div>
+					<img class="pImage" src="projectPics/STIm2.jpg">
+					<div class="text">Night House Variant</div>
+				</div>
+
+				<div class="mySlides fade 1">
+					<div class="numbertext">3 / 8</div>
+					<img class="pImage" src="projectPics/STIm3.jpg">
+					<div class="text">Earlier Layout</div>
+				</div>
+
+				<div class="mySlides fade 1">
+					<div class="numbertext">4 / 8</div>
+					<img class="pImage" src="projectPics/STIm4.jpg">
+					<div class="text">Earlier Layout</div>
+				</div>
+
+				<div class="mySlides fade 1">
+					<div class="numbertext">5 / 8</div>
+					<img class="pImage" src="projectPics/STIm5.jpg">
+					<div class="text">Earlier Layout</div>
+				</div>
+
+				<div class="mySlides fade 1">
+					<div class="numbertext">6 / 8</div>
+					<img class="pImage" src="projectPics/STIm6.jpg">
+					<div class="text">Earlier Layout</div>
+				</div>
+
+				<div class="mySlides fade 1">
+					<div class="numbertext">7 / 8</div>
+					<img class="pImage" src="projectPics/STIm7.jpg">
+					<div class="text">Earlier Layout</div>
+				</div>
+
+				<div class="mySlides fade 1">
+					<div class="numbertext">8 / 8</div>
+					<img class="pImage" src="projectPics/STIm8.jpg">
+					<div class="text">Earlier Layout</div>
+				</div>
+
+				<!-- Next and previous buttons -->
+				<a class="prev" onclick="plusSlides(1, -1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+			</div>
+			<br>
+
+			<!-- The dots/circles, passing the number of the container and the slide number -->
+			<div style="text-align:center">
+				<span class="dot 1" onclick="currentSlide(1, 1)"></span>
+				<span class="dot 1" onclick="currentSlide(1, 2)"></span>
+				<span class="dot 1" onclick="currentSlide(1, 3)"></span>
+				<span class="dot 1" onclick="currentSlide(1, 4)"></span>
+				<span class="dot 1" onclick="currentSlide(1, 5)"></span>
+				<span class="dot 1" onclick="currentSlide(1, 6)"></span>
+				<span class="dot 1" onclick="currentSlide(1, 7)"></span>
+				<span class="dot 1" onclick="currentSlide(1, 8)"></span>
+			</div>
+			
+			<div class="pContent">
+				<p> 
+					November 2020 <br> 
+					Completed some last-minute artwork for the Smart Thermostat configuration of the AWS IoT EduKit. <br> <br>
+					Finals were looming, final projects were coming due, and my dad calls me downstairs and asks
+					<span id="dotdotdot1">...</span><span class="moreContent" id="more1">
+					"Hey, you got a few hours to help me out with something?" I had at least a few minutes to hear it out,
+					so I did. My dad's team was in the final stretch of developing the EduKit's Smart Thermostat module,
+					and they suddenly found themself without an actual UI. It was too late to request Amazon official art,
+					and my dad had seen me make UI mockups and artwork in the past, so I was asked if I was interested in
+					helping. <br>
+					My last final project was due in a few days, but I figured I had some extra time in-between test runs
+					and said yes. <br> <br>
+					Requirements for the design: <br>
+					• It needed to use Amazon official colors, RGB values were provided.<br>
+					• It needed to include some color-changing portion to show the current color of the LEDs attached to the device. <br>
+					• It needed to have a day and a night variant. <br>
+					• There needed to be some GIF icon to show whether or not the device fan was running, and an ON/OFF icon. <br>
+					• There needed to be some thermometer icon and temperature actual value location. <br> <br>
+					I ended up going through two or three different house designs and a lightbulb option before we found
+					one we chose. The fan went through two iterations, one with thicker lines and one with thinner (which
+					ended up being chosen). We also had the decision to make the fan ON/OFF either a switch or a button. A 
+					switch and a speed slider were chosen to save room on the screen.
+					</span>
+				</p>
+				<button onclick="toggleRead(1)" class="button" id="btn1">Read more</button>
+			</div>
+		</div>
+		
+		
 	</div>
 	
 	<script src="projectScript.js"></script>
