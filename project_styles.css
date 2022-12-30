@@ -39,14 +39,14 @@ h2 {
 }
 
 h3 {
-	font-family: arial;
+	font-family: tahoma;
 	font-weight: bold;
 	margin-top: 0em;
 	text-align: center;
 }
 
 p {
-	font-family: arial;
+	font-family: tahoma;
 }
 
 .project {
@@ -54,9 +54,9 @@ p {
 	width: 80%;
 	max-width: 100em;
 	padding: 2em;
-	margin-bottom: 4em;
+	margin-bottom: 1.5em;
 	border-radius: 15px;
-	font-size: 1.1em;
+	font-size: 1em;
 	color: #a09aa6;
 	background-color: #300c2b;
 }
@@ -121,7 +121,7 @@ p {
 .text {
   color: #f2f2f2;
   font-size: 16px;
-  font-family: arial;
+  font-family: tahoma;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -177,4 +177,16 @@ p {
 	padding: .5em;
 	font-size: .8em;
 	font-weight: bold;
+}
+
+#contact {
+	background-color: #05040a;
+	color: #3a5b69;
+	margin: auto;
+	width: 100%;
+	text-align: center;
+	font-family: tahoma;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin-bottom: 1em;
 }

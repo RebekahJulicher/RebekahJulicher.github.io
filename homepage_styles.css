@@ -6,6 +6,14 @@ html {
   scroll-behavior: smooth;
 }
 
+#homeButton {
+	width: 100px; 
+	height: 100px;
+	margin-bottom: -2em;
+	margin-left: 0em;
+	padding: 3px;
+}
+
 #banner {
 	border-radius: 10px;
 	background-color: #1b1b1b;
@@ -66,7 +74,6 @@ h2 {
 	margin-top: -.8em;
 	font-family: courier, monospaced;
 	font-weight: 200;
-	#text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;  
 	color: #6fecfe;
 	font-size: 3.5em;
 }
@@ -129,6 +136,7 @@ h2 {
 	background-color: #3b0b34;
 	width: 75%;
 	color: #a09aa6;
+	font-family: tahoma;
 }
 
 #photo {
@@ -136,7 +144,6 @@ h2 {
 	margin-top: -5em;
 	margin-right: -1em;
 	float: right;
-	#position: right top;
 	background-color: #3b0b34;
 	background-image: url("selfPicture.png");
 	background-size: 90%;
@@ -144,4 +151,16 @@ h2 {
 	background-repeat: no-repeat;
 	height: 22em;
 	width: 16em;
+}
+
+#contact {
+	background-color: #05040a;
+	color: #3a5b69;
+	margin: auto;
+	width: 100%;
+	text-align: center;
+	font-family: tahoma;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin-bottom: 1em;
 }
