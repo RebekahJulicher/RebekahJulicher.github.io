@@ -62,7 +62,7 @@ p {
 }
 
 .pImage {
-	max-width: 50%; 
+	max-width: 90%; 
 	max-height: 400px;
 	min-height: 400px;
 	display: block;

@@ -14,9 +14,10 @@ function toggleRead(x) {
 	}
 }
 
-let slideIndex = [1, 1];
+let slideIndex = [1, 1, 1];
 showSlides(0, slideIndex);
 showSlides(1, slideIndex);
+showSlides(2, slideIndex);
 
 // Next/previous controls
 function plusSlides(x, n) {
