@@ -8,15 +8,25 @@ body {
 	font-size: 1.2em;
 	font-family: andale mono, monospace;
 	text-align: center;
-	border-radius: 10px;
+	border-radius: 20px;
 	width: 80%;
-	outline: 10px double #3b0b34;
+	border: 10px double #3b0b34;
+	margin-bottom: 1em;
+}
+
+h1 {
+	margin: .2em;
 }
 
 #nav {
+	float: center;
 	text-align: center;
 	margin: auto;
+	width: 80%;
 	display: block;
+	margin-bottom: 1em;
+	font-size: 1.2em;
+	padding-right: 4%;
 	margin-bottom: 1em;
 }
 
@@ -26,6 +36,46 @@ body {
 	margin-bottom: -2em;
 	margin-left: 0em;
 	padding: 3px;
+}
+
+.icon {
+	float: left;
+	font-family: andale mono, monospace;
+	font-weight: bold;
+	color: #152536;
+	border-radius: 50px;
+	width: 4em;
+	height: 4em;
+	padding: 2em;
+	margin-top: 1.5em;
+	margin-left: 1em;
+	background-color: #153447;
+	text-align: center;
+}
+
+#icons {
+	width: 1em;
+}
+
+#insta {
+	background-image: url("projectPics/instaLogo.png");
+	background-size: 40px 40px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#linkedin {
+	background-image: url("projectPics/linkedinLogo.png");
+	background-size: 30px 30px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#cv {
+	background-image: url("projectPics/cv.png");
+	background-size: 40px 40px;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 h2 {
