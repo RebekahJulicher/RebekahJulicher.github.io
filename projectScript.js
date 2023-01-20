@@ -58,7 +58,6 @@ function showSlides(x, n) {
 let mybutton = document.getElementById("scrollBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
-//window.addEventListener("scroll", scrollFunction());
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
