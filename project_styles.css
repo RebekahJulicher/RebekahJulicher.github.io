@@ -137,7 +137,7 @@ p {
 }
 
 .pImageArt {
-	max-width: 90%;
+	max-width: 90%; 
 	max-height: 600px;
 	min-height: 400px;
 	display: block;
