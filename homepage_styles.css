@@ -199,8 +199,8 @@ h2 {
 	background-size: 90%;
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 22em;
-	width: 16em;
+	height: 30em;
+	width: 22em;
 }
 
 #contact {
@@ -211,6 +211,7 @@ h2 {
 	text-align: center;
 	font-family: tahoma;
 	padding-top: 1em;
+	font-size: 1.2em;
 	padding-bottom: 1em;
 	margin-bottom: 1em;
 }
