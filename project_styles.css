@@ -2,28 +2,6 @@ body {
 	background-color: #0c091c;
 }
 
-#scrollBtn {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: #153447; /* Set a background color */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 10px; /* Some padding */
-  border-radius: 50px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
-  width: 3.5em;
-  height: 3.5em;
-}
-
-#scrollBtn:hover {
-  background-color: #1e4f6e; /* Add a dark-grey background on hover */
-}
-
 #header {
 	color: #c6c1c9;
 	margin: auto;
@@ -136,15 +114,6 @@ p {
 	margin-right: auto;
 }
 
-.pImageArt {
-	max-width: 90%; 
-	max-height: 600px;
-	min-height: 400px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 .moreContent {
 	display: none;
 }
@@ -159,8 +128,6 @@ p {
   margin: auto;
   background-color: #220a24;
 }
-
-
 
 /* Hide the images by default */
 .mySlides {
