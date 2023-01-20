@@ -14,12 +14,13 @@ function toggleRead(x) {
 	}
 }
 
-let slideIndex = [1, 1, 1, 1, 1];
+let slideIndex = [1, 1, 1, 1, 1, 1];
 showSlides(0, slideIndex);
 showSlides(1, slideIndex);
 showSlides(2, slideIndex);
 showSlides(3, slideIndex);
 showSlides(4, slideIndex);
+showSlides(5, slideIndex);
 
 // Next/previous controls
 function plusSlides(x, n) {
@@ -50,4 +51,26 @@ function showSlides(x, n) {
 	console.log(x);
 	slides[slideIndex[x]-1].style.display = "block";
 	dots[slideIndex[x]-1].className += " active";
+}
+
+
+// Get the button:
+let mybutton = document.getElementById("scrollBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+//window.addEventListener("scroll", scrollFunction());
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function scrollToTop() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
