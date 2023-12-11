@@ -1,0 +1,62 @@
+/* NAV STYLING */
+
+nav {
+    padding: 1vw;
+    background-color: black;
+    text-align: center;
+}
+
+nav > a {
+    display: inline;
+    font-family: 'Krub', sans-serif;
+    font-weight: 300;
+    font-size: 2vw;
+    color: white;
+    width: 100%;
+    margin-top: 0px;
+    margin-right: 5vw;
+    text-decoration-line: none;
+}
+
+nav > a:hover {
+    color: #D193BD;
+}
+
+/* ABOUT */
+#aboutcontainer {
+	margin: auto;
+	width: 80%;
+	max-width: 100em;
+}
+
+#photo {
+	border-radius: 5px;
+	margin-top: 0em;
+	margin-right: -1em;
+	float: right;
+	background-image: url("assets/aboutPhoto.JPG");
+	background-size: 95%;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 28em;
+	width: 22em;
+}
+
+#aboutme {
+    font-family: 'Krub', sans-serif;
+    font-weight: 300;
+	border-radius: 15px;
+	margin-top: 2em;
+	margin-left: 5%;
+	margin-right: 10%;
+	margin-bottom: 5em;
+	padding: 2em;
+	width: 75%;
+	color: black;
+}
+
+#about {
+	color: #3b0b34;
+	font-size: 3em;
+	font-weight: 700s;
+}
