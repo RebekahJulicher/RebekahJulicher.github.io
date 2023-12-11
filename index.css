@@ -1,0 +1,71 @@
+body{
+    margin-top: -20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* BANNER STYLING */
+
+#banner {
+    background-image: url("assets/banner.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+#bannerContent {
+    width: 70%;
+    margin: 2em;
+    margin-top: 5em;
+}
+
+#bannerContent > img {
+    width: 80%;
+}
+
+hr{
+    margin-top: 0px;
+    margin-left: -2em;
+    margin-right: -2em;
+    color: white;
+    border-width: 2px;
+    border-style: solid;
+}
+
+/* BANNER TEXT STYLING */
+
+#lastName{
+    margin-top: 0px;
+    font-family: 'Krub', sans-serif;
+    font-weight: 200;
+    font-size: 6vw;
+    color: white;
+}
+
+h2 {
+    font-family: 'Krub', sans-serif;
+    color: #D193BD;
+}
+
+em{
+    font-style: normal;
+    color: #EBF5EE;
+}
+
+#taglineClarifier{
+    font-size: 2.3vw;
+    font-weight: 200;
+    color: #CCA7C0;
+}
+
+#face {
+    background-color: #D8BFAA;
+    width: 30em;
+    object-fit: cover;
+}
+
+#face > img {
+    margin-left: 5%;
+    width: 95%;
+}
